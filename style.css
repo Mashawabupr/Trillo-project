@@ -29,7 +29,6 @@
 }
 .navbar a:hover {
   color: gray;
-  text-decoration: underline;
 }
 .s {
   color: white !important;
@@ -56,7 +55,7 @@ h1 {
 .main a {
   color: white;
   text-decoration: none;
-  border: solid 1px rgb(59, 59, 182);
+  border: solid 1px #005288;
   padding: 10px;
   display: inline-block;
   margin-top: 5%;
@@ -66,4 +65,15 @@ h1 {
 }
 .main span {
   font-size: 60px;
+}
+.navbar .nav-item:hover {
+  color: gray;
+  border-bottom: 1px solid gray;
+}
+.m:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.308)
+  );
 }
