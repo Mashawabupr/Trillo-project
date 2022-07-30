@@ -42,7 +42,7 @@
 .main h4 {
   background: linear-gradient(to right, white, #e14f00);
   -webkit-text-fill-color: transparent;
-  background-clip: text;
+  -webkit-background-clip: text;
 }
 h1 {
   display: inline-block;
@@ -50,7 +50,7 @@ h1 {
   font-size: 60px !important;
   background: linear-gradient(to right, white, #e14f00);
   -webkit-text-fill-color: transparent;
-  background-clip: text;
+  -webkit-background-clip: text;
 }
 .main a {
   color: white;
